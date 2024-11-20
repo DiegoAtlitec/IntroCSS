@@ -47,18 +47,23 @@ h1 {
     background-color: #ff6347;
     color: white;
     border: none;
-    padding: 10px;
+    padding: 12px;
     width: 100%;
     text-align: center;
     cursor: pointer;
-    font-size: 16px;
+    font-size: 25px;
     transition: background-color 0.2s;
+    size: 3px;
 }
 
 .like-button:hover {
     background-color: #e55342;
-    color: #fddced;
 }
+
+.like-button:hover i {
+    color: red;
+}
+
 
 footer {
     background-color: #333;
